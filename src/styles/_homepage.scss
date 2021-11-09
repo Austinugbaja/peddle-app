@@ -1,0 +1,54 @@
+.main {
+  .hero {
+      align-content: center;
+      justify-content: center;
+    gap: 1rem;
+
+    &-left {
+      flex: 1;
+      h1 {
+        color: #0b132a;
+        text-shadow: 0px 2px 4px #ba55d3;
+      }
+
+      p {
+        color: #4F5665;
+      }
+
+      .btn {
+          color: #fff;
+          background-color: #ba55d3;
+          border-radius: 4px;
+      }
+    }
+
+    &-right {
+      flex: 1;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .overview {
+      align-content: center;
+      justify-content: space-evenly;
+      border: 1px solid red;
+
+      &-left {
+          padding: 2rem;
+          border-right: 1px solid blue;
+        //   border: 1px solid blue;
+      }
+
+      &-mid {
+          padding: 2rem;
+        //   border: 1px solid blue;
+      }
+
+      &-right {
+          padding: 2rem;
+        //   border: 1px solid blue;
+      }
+  }
+}
